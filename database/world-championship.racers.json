@@ -1,0 +1,176 @@
+[{
+  "_id": {
+    "$oid": "651f7b8925daec6ceb845480"
+  },
+  "name": "BAGNAIA Francesco",
+  "country": "ITA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7b9c25daec6ceb845482"
+  },
+  "name": "QUARTARARO Fabio",
+  "country": "FRA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7bb125daec6ceb845484"
+  },
+  "name": "BASTIANINI Enea",
+  "country": "ITA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7bc925daec6ceb845487"
+  },
+  "name": "ESPARGARO Aleix",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7bd925daec6ceb845489"
+  },
+  "name": "MILLER Jack",
+  "country": "AUS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7be825daec6ceb84548b"
+  },
+  "name": "BINDER Brad",
+  "country": "RSA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7bfa25daec6ceb84548d"
+  },
+  "name": "RINS Alex",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c0825daec6ceb845490"
+  },
+  "name": "ZARCO Johann",
+  "country": "FRA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c1925daec6ceb845492"
+  },
+  "name": "MARTIN Jorge",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c2925daec6ceb845494"
+  },
+  "name": "OLIVEIRA Miguel",
+  "country": "POR",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c3925daec6ceb845496"
+  },
+  "name": "VIÑALES Maverick",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c6325daec6ceb845498"
+  },
+  "name": "MARINI Luca",
+  "country": "ITA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c6d25daec6ceb84549a"
+  },
+  "name": "MARQUEZ Marc",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c7f25daec6ceb84549c"
+  },
+  "name": "BEZZECCHI Marco",
+  "country": "ITA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c8b25daec6ceb84549e"
+  },
+  "name": "5 MIR Joan",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7c9825daec6ceb8454a0"
+  },
+  "name": "ESPARGARO Pol",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7ca325daec6ceb8454a2"
+  },
+  "name": "MARQUEZ Alex",
+  "country": "SPA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7cb625daec6ceb8454a4"
+  },
+  "name": "NAKAGAMI Takaaki",
+  "country": "JPN",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7cc325daec6ceb8454a6"
+  },
+  "name": "MORBIDELLI Franco",
+  "country": "ITA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7cd025daec6ceb8454a8"
+  },
+  "name": "DI GIANNANTONIO Fabio",
+  "country": "ITA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7cdb25daec6ceb8454aa"
+  },
+  "name": "DOVIZIOSO Andrea",
+  "country": "ITA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f7cec25daec6ceb8454ac"
+  },
+  "name": "FERNANDEZ Raul",
+  "country": "VNG",
+  "__v": 0
+}]

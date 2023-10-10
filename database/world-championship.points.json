@@ -1,0 +1,1242 @@
+[{
+  "_id": {
+    "$oid": "651f7fa9978bcb6f0af01cc1"
+  },
+  "raceName": "QAT",
+  "racerPoints": [
+    {
+      "racer": {
+        "$oid": "651f7b8925daec6ceb845480"
+      },
+      "point": 20,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cc3"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7b9c25daec6ceb845482"
+      },
+      "point": 10,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cc4"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bb125daec6ceb845484"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cc5"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bc925daec6ceb845487"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cc6"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bd925daec6ceb845489"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cc7"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7be825daec6ceb84548b"
+      },
+      "point": 20,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cc8"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bfa25daec6ceb84548d"
+      },
+      "point": 16,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cc9"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c0825daec6ceb845490"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cca"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c1925daec6ceb845492"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01ccb"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c2925daec6ceb845494"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01ccc"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c3925daec6ceb845496"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01ccd"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6325daec6ceb845498"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cce"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6d25daec6ceb84549a"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01ccf"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c7f25daec6ceb84549c"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd0"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c8b25daec6ceb84549e"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd1"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c9825daec6ceb8454a0"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd2"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7ca325daec6ceb8454a2"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd3"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cb625daec6ceb8454a4"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd4"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cc325daec6ceb8454a6"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd5"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cd025daec6ceb8454a8"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd6"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cdb25daec6ceb8454aa"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd7"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cec25daec6ceb8454ac"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "651f7fa9978bcb6f0af01cd8"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6520283780803a1abc1760ba"
+  },
+  "raceName": "ARG",
+  "racerPoints": [
+    {
+      "racer": {
+        "$oid": "651f7b8925daec6ceb845480"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "6520283780803a1abc1760bc"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7b9c25daec6ceb845482"
+      },
+      "point": 6,
+      "_id": {
+        "$oid": "6520283780803a1abc1760bd"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bb125daec6ceb845484"
+      },
+      "point": 25,
+      "_id": {
+        "$oid": "6520283780803a1abc1760be"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bc925daec6ceb845487"
+      },
+      "point": 2,
+      "_id": {
+        "$oid": "6520283780803a1abc1760bf"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bd925daec6ceb845489"
+      },
+      "point": 10,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c0"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7be825daec6ceb84548b"
+      },
+      "point": 16,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c1"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bfa25daec6ceb84548d"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c2"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c0825daec6ceb845490"
+      },
+      "point": 20,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c3"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c1925daec6ceb845492"
+      },
+      "point": 3,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c4"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c2925daec6ceb845494"
+      },
+      "point": 9,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c5"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c3925daec6ceb845496"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c6"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6325daec6ceb845498"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c7"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6d25daec6ceb84549a"
+      },
+      "point": 7,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c8"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c7f25daec6ceb84549c"
+      },
+      "point": 13,
+      "_id": {
+        "$oid": "6520283780803a1abc1760c9"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c8b25daec6ceb84549e"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6520283780803a1abc1760ca"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c9825daec6ceb8454a0"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6520283780803a1abc1760cb"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7ca325daec6ceb8454a2"
+      },
+      "point": 4,
+      "_id": {
+        "$oid": "6520283780803a1abc1760cc"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cb625daec6ceb8454a4"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6520283780803a1abc1760cd"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cc325daec6ceb8454a6"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6520283780803a1abc1760ce"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cd025daec6ceb8454a8"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6520283780803a1abc1760cf"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cdb25daec6ceb8454aa"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6520283780803a1abc1760d0"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cec25daec6ceb8454ac"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6520283780803a1abc1760d1"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6522b9d38b9cd221daa0d963"
+  },
+  "raceName": "AME",
+  "racerPoints": [
+    {
+      "racer": {
+        "$oid": "651f7b8925daec6ceb845480"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d964"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7b9c25daec6ceb845482"
+      },
+      "point": 10,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d965"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bb125daec6ceb845484"
+      },
+      "point": 15,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d966"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bc925daec6ceb845487"
+      },
+      "point": 20,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d967"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bd925daec6ceb845489"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d968"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7be825daec6ceb84548b"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d969"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bfa25daec6ceb84548d"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d96a"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c0825daec6ceb845490"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d96b"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c1925daec6ceb845492"
+      },
+      "point": 20,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d96c"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c2925daec6ceb845494"
+      },
+      "point": 25,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d96d"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c3925daec6ceb845496"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d96e"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6325daec6ceb845498"
+      },
+      "point": 6,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d96f"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6d25daec6ceb84549a"
+      },
+      "point": 6,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d970"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c7f25daec6ceb84549c"
+      },
+      "point": 6,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d971"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c8b25daec6ceb84549e"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d972"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c9825daec6ceb8454a0"
+      },
+      "point": 9,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d973"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7ca325daec6ceb8454a2"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d974"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cb625daec6ceb8454a4"
+      },
+      "point": 10,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d975"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cc325daec6ceb8454a6"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d976"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cd025daec6ceb8454a8"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d977"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cdb25daec6ceb8454aa"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d978"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cec25daec6ceb8454ac"
+      },
+      "point": 100,
+      "_id": {
+        "$oid": "6522b9d38b9cd221daa0d979"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6522beb98b9cd221daa0dda2"
+  },
+  "raceName": "POR",
+  "racerPoints": [
+    {
+      "racer": {
+        "$oid": "651f7b8925daec6ceb845480"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0dda3"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7b9c25daec6ceb845482"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0dda4"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bb125daec6ceb845484"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0dda5"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bc925daec6ceb845487"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0dda6"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bd925daec6ceb845489"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0dda7"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7be825daec6ceb84548b"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0dda8"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bfa25daec6ceb84548d"
+      },
+      "point": 11,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0dda9"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c0825daec6ceb845490"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddaa"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c1925daec6ceb845492"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddab"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c2925daec6ceb845494"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddac"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c3925daec6ceb845496"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddad"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6325daec6ceb845498"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddae"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6d25daec6ceb84549a"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddaf"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c7f25daec6ceb84549c"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb0"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c8b25daec6ceb84549e"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb1"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c9825daec6ceb8454a0"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb2"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7ca325daec6ceb8454a2"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb3"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cb625daec6ceb8454a4"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb4"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cc325daec6ceb8454a6"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb5"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cd025daec6ceb8454a8"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb6"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cdb25daec6ceb8454aa"
+      },
+      "point": 9,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb7"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cec25daec6ceb8454ac"
+      },
+      "point": 10,
+      "_id": {
+        "$oid": "6522beb98b9cd221daa0ddb8"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6522bf368b9cd221daa0e08c"
+  },
+  "raceName": "SPA",
+  "racerPoints": [
+    {
+      "racer": {
+        "$oid": "651f7b8925daec6ceb845480"
+      },
+      "point": 1,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e08d"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7b9c25daec6ceb845482"
+      },
+      "point": 2,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e08e"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bb125daec6ceb845484"
+      },
+      "point": 40,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e08f"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bc925daec6ceb845487"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e090"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bd925daec6ceb845489"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e091"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7be825daec6ceb84548b"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e092"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bfa25daec6ceb84548d"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e093"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c0825daec6ceb845490"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e094"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c1925daec6ceb845492"
+      },
+      "point": 9,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e095"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c2925daec6ceb845494"
+      },
+      "point": 20,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e096"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c3925daec6ceb845496"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e097"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6325daec6ceb845498"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e098"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6d25daec6ceb84549a"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e099"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c7f25daec6ceb84549c"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e09a"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c8b25daec6ceb84549e"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e09b"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c9825daec6ceb8454a0"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e09c"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7ca325daec6ceb8454a2"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e09d"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cb625daec6ceb8454a4"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e09e"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cc325daec6ceb8454a6"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e09f"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cd025daec6ceb8454a8"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e0a0"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cdb25daec6ceb8454aa"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e0a1"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cec25daec6ceb8454ac"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bf368b9cd221daa0e0a2"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6522bfa08b9cd221daa0e1f7"
+  },
+  "raceName": "FRA",
+  "racerPoints": [
+    {
+      "racer": {
+        "$oid": "651f7b8925daec6ceb845480"
+      },
+      "point": 9,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1f8"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7b9c25daec6ceb845482"
+      },
+      "point": 10,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1f9"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bb125daec6ceb845484"
+      },
+      "point": 25,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1fa"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bc925daec6ceb845487"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1fb"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bd925daec6ceb845489"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1fc"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7be825daec6ceb84548b"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1fd"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7bfa25daec6ceb84548d"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1fe"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c0825daec6ceb845490"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e1ff"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c1925daec6ceb845492"
+      },
+      "point": 0,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e200"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c2925daec6ceb845494"
+      },
+      "point": 6,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e201"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c3925daec6ceb845496"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e202"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6325daec6ceb845498"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e203"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c6d25daec6ceb84549a"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e204"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c7f25daec6ceb84549c"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e205"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c8b25daec6ceb84549e"
+      },
+      "point": 5,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e206"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7c9825daec6ceb8454a0"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e207"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7ca325daec6ceb8454a2"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e208"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cb625daec6ceb8454a4"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e209"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cc325daec6ceb8454a6"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e20a"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cd025daec6ceb8454a8"
+      },
+      "point": 8,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e20b"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cdb25daec6ceb8454aa"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e20c"
+      }
+    },
+    {
+      "racer": {
+        "$oid": "651f7cec25daec6ceb8454ac"
+      },
+      "point": null,
+      "_id": {
+        "$oid": "6522bfa08b9cd221daa0e20d"
+      }
+    }
+  ],
+  "__v": 0
+}]
