@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WorldStanding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div id="layout-body">
+        <div class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <p class="racetrack">Circuit Ricardo Tormo</p>
+                    <div class="img">
+                        <img src="./Image/map.png"/>
+                    </div>
+                    <p class="length-racetrack">4005 m.</p>
+                </div>
+                <div class="title">
+                    <p>Results and timing service provided by </p>
+                    <h1>GRAN PREMIO MOTUL DE LA COMUNITAT VALENCIANA</h1>
+                    <h2>World Championship Classification</h2>
+                </div>
+            </div>
+            <div class="">
+                <h1>MotoGP™</h1>
+            </div>
+        </div>
+        <button id="addButton">Thêm kết quả trường đua mới</button>
+        <table>
+            <thead >
+                <tr id="dataTitle">
+                    <th></th>
+                    <th><h2 class="titleName">Rider</h2></th>
+                    <th></th>
+                    <th><p class="titlePoints">Points</p></th>
+                    <th><p class="titlePoints">Leader</p></th>
+                    <th><p class="titlePoints">Previous</p></th>
+                </tr>
+            </thead>
+            <tbody id="dataBody"></tbody>
+        </table>
+    </div>
+    <div id="modal" class="hiden show" >
+        <form class="form" onsubmit="handleSubmit(event)" id="pointsForm" action="http://localhost:3000/api/points" method="POST">
+            <input type="submit" value="Submit">
+            <br>
+            <br>
+            <div class="form-input">
+                <label for="raceName">Race Name:</label>
+                <input type="text" id="raceName" name="raceName">
+            </div>
+        </form>
+        <button id="closeButton">Đóng</button>
+        
+    </div>
+    <script>
+        const addButton = document.getElementById('addButton');
+        const modal = document.getElementById('modal');
+        const body = document.getElementById('layout-body');
+
+        const handleFileldValue = (data) => {
+            var dataBody = document.getElementById('dataBody');
+            const dataTitle = document.getElementById('dataTitle');
+            const tr = document.createElement('tr');
+            let LOCATIONS = []
+            data.forEach((item, index) => {
+                if (index === 0) {
+                    LOCATIONS = Object.keys(item).filter(key => key !== 'racer' && key !== 'country' && key !== 'point');
+                    LOCATIONS.forEach(location => {
+                        console.log("location", location)
+                        const locationTh = document.createElement('th');
+                        locationTh.textContent = location;
+                        dataTitle.appendChild(locationTh);
+                    });
+                }
+                var row = document.createElement('tr');
+                var idCell = document.createElement('td');
+                idCell.innerText = index + 1;
+                row.appendChild(idCell);
+
+                var nameCell = document.createElement('td');
+                nameCell.innerText = item?.racer;
+                nameCell.classList.add('name-column');
+                row.appendChild(nameCell);
+
+                var countryCell = document.createElement('td');
+                countryCell.innerText = item?.country;
+                row.appendChild(countryCell);
+
+                var point = document.createElement('td');
+                point.innerText = item.point ?? 0;
+                point.classList.add('points-column');
+                row.appendChild(point);
+
+                var leader = document.createElement('td');
+                leader.innerText = item.leader ?? 0;
+                leader.classList.add('leader-column');
+                row.appendChild(leader);
+
+                var previous = document.createElement('td');
+                previous.innerText = item.previous ?? 0;
+                previous.classList.add('previous-column');
+                row.appendChild(previous);
+
+                LOCATIONS.forEach(location => {
+                    const cells = {};
+                    const locationName = `${location}Cell`;
+                    cells[locationName] = document.createElement('td');
+                    cells[locationName].innerText = (item?.[location]) ?? '-';
+                    row.appendChild(cells[locationName]);
+                })
+                dataBody.appendChild(row);
+            });
+        }
+        
+        const getListRacer = (data) => {
+            data?.forEach((item, index) => {
+                const divWrapper = document.createElement('div');
+
+                const nameLabel = document.createElement('label');
+                nameLabel.htmlFor = 'name';
+                nameLabel.textContent = `${index + 1}. ${item?.name}`;
+
+                const idInput = document.createElement('input');
+                idInput.type = 'hidden';
+                idInput.id = 'id';
+                idInput.name = 'id[]';
+                idInput.value = item._id;
+
+            
+                const pointInput = document.createElement('input');
+                pointInput.type = 'number';
+                pointInput.id = 'point';
+                pointInput.name = 'point[]';
+
+                divWrapper.appendChild(nameLabel);
+                divWrapper.appendChild(idInput);
+                divWrapper.classList.add('form-input');
+                divWrapper.appendChild(pointInput);
+
+                const form = document.getElementById('pointsForm');
+                form.appendChild(document.createElement('br'));
+                form.appendChild(divWrapper);
+            })
+            
+        }
+        
+        const handleSubmit = (event) => {
+            event.preventDefault();
+            var raceName = document.getElementById("raceName").value;
+            var id = document.getElementsByName("id[]");
+            var point = document.getElementsByName("point[]");
+            let racerPoints = [];
+            var pointList = [];
+            for (var i = 0; i < id.length; i++) {
+                racerPoints.push({
+                    racer: id[i].value,
+                    point: point[i].value
+                })
+            }
+            console.log(raceName, racerPoints); // In dữ liệu ra console để kiểm tra
+            const formData = {
+                raceName: raceName,
+                racerPoints: racerPoints,
+            };
+
+            if (raceName !== '' && racerPoints.length > 0) {
+                fetch('http://localhost:3000/api/points', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Xử lý phản hồi từ máy chủ sau khi gửi dữ liệu thành công
+                    console.log(data);
+                    modal.classList.remove('show');
+                    body.classList.remove('opacity');
+                    modal.classList.add('hiden');
+                    location.reload();
+                })
+                .catch(error => console.error(error));
+            } else {
+                alert('Vui lòng nhập đầy đủ thông tin')
+            }
+            
+        }
+        
+        
+
+        addButton.addEventListener('click', function() {
+            modal.classList.add('show');
+            body.classList.add('opacity');
+            modal.classList.remove('hiden');
+        });
+
+        const closeButton = document.getElementById('closeButton');
+        closeButton.addEventListener('click', function() {
+            modal.classList.remove('show');
+            body.classList.remove('opacity');
+            modal.classList.add('hiden');
+        });
+        
+        fetch('http://localhost:3000/api/points', {
+            method: 'GET'
+        })
+            .then(response => response.json())
+            .then(data => handleFileldValue(data))
+            .catch(error => console.error(error));
+
+        fetch('http://localhost:3000/api/racer', {
+            method: 'GET'
+        })
+            .then(response => response.json())
+            .then(data => getListRacer(data))
+            .catch(error => console.error(error));
+    </script>
+</body>
+</html>

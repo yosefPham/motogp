@@ -1,0 +1,114 @@
+POST http://localhost:3000/api/racer HTTP/1.1
+content-type: application/json
+
+{
+    "name": "FERNANDEZ Raul",
+    "country": "VNG"
+}
+
+#####
+
+GET http://localhost:3000/api/racer
+
+
+####
+GET http://localhost:3000/api/points
+
+
+####
+POST http://localhost:3000/api/points HTTP/1.1
+content-type: application/json
+
+{
+    "raceName": "QAT",
+    "racerPoints": [
+        {
+            "racer": "651f7b8925daec6ceb845480",
+            "point": 8
+        },
+        {
+            "racer": "651f7b9c25daec6ceb845482",
+            "point": 6
+        },
+        {
+            "racer": "651f7bb125daec6ceb845484",
+            "point": 25
+        },
+        {
+            "racer": "651f7bc925daec6ceb845487",
+            "point": 2
+        },
+        {
+            "racer": "651f7bd925daec6ceb845489",
+            "point": 10
+        },
+        {
+            "racer": "651f7be825daec6ceb84548b",
+            "point": 16
+        },
+        {
+            "racer": "651f7bfa25daec6ceb84548d",
+            "point": null
+        },
+        {
+            "racer": "651f7c0825daec6ceb845490",
+            "point": 20
+        },
+        {
+            "racer": "651f7c1925daec6ceb845492",
+            "point": 3
+        },
+        {
+            "racer": "651f7c2925daec6ceb845494",
+            "point": 9
+        },
+        {
+            "racer": "651f7c3925daec6ceb845496",
+            "point": 5
+        },
+        {
+            "racer": "651f7c6325daec6ceb845498",
+            "point": null
+        },
+        {
+            "racer": "651f7c6d25daec6ceb84549a",
+            "point": 7
+        },
+        {
+            "racer": "651f7c7f25daec6ceb84549c",
+            "point": 13
+        },
+        {
+            "racer": "651f7c8b25daec6ceb84549e",
+            "point": null
+        },
+        {
+            "racer": "651f7c9825daec6ceb8454a0",
+            "point": 1
+        },
+        {
+            "racer": "651f7ca325daec6ceb8454a2",
+            "point": 4
+        },
+        {
+            "racer": "651f7cb625daec6ceb8454a4",
+            "point": null
+        },
+        {
+            "racer": "651f7cc325daec6ceb8454a6",
+            "point": null
+        },
+        {
+            "racer": "651f7cd025daec6ceb8454a8",
+            "point": 0
+        },
+        {
+            "racer": "651f7cdb25daec6ceb8454aa",
+            "point": 0
+        },
+        {
+            "racer": "651f7cec25daec6ceb8454ac",
+            "point": 0
+        }
+    ]
+}
