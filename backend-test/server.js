@@ -33,8 +33,14 @@ const racerSchema = new mongoose.Schema({
   country: String
 });
 
+const race = new mongoose.Schema({
+  raceName: String,
+  country: String
+});
+
 const Points = mongoose.model('points', raceResultSchema);
 const Racer = mongoose.model('racer', racerSchema);
+const Race = mongoose.model('race', race);
 
 connect()
   .then(async () => {
@@ -62,6 +68,17 @@ connect()
       try {
         console.log('req', req.params, req.body, req.query)
         const racer = new Racer(req.body);
+        await racer.save()
+        res.json(racer);
+      } catch (error) {
+        console.error('Error retrieving users:', error);
+        res.status(500).json({ error: 'Server error' });
+      }
+    });
+    app.post('/api/race', async (req, res) => {
+      try {
+        console.log('req', req.params, req.body, req.query)
+        const racer = new Race(req.body);
         await racer.save()
         res.json(racer);
       } catch (error) {
